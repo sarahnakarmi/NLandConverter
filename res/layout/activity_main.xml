@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/green" 
+    tools:context="com.example.converter.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="What Is Your Input Value?"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnsqrfeet"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="Square Feet" />
+
+        <Button
+            android:id="@+id/btnsqrmeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnhectare"
+            android:layout_alignRight="@+id/btnhectare"
+            android:layout_below="@+id/btnhectare"
+            android:layout_marginTop="32dp"
+           
+            android:text="Square Meter" />
+
+        <Button
+            android:id="@+id/btnacre"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:text="Acre" />
+
+        <Button
+            android:id="@+id/btnhectare"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Hectare" />
+    </LinearLayout>
+
+</RelativeLayout>

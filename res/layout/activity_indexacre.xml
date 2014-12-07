@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/green" >
+   <LinearLayout 
+    android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="105dp"
+        android:orientation="vertical" >
+         <Button
+            android:id="@+id/btnacreRopani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:text="Ropani" />
+
+        <Button
+            android:id="@+id/btnacreBigha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bigha" />
+
+         <Button
+            android:id="@+id/btnacreHectare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hectare" />
+
+         <Button
+            android:id="@+id/btnacreSqr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Square Feet" />
+        <Button
+            android:id="@+id/btnacreSqrMeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square Meter" />
+    
+
+</LinearLayout>
+</RelativeLayout>

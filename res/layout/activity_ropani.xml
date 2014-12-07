@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green" >
+
+   
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edttxtAnna"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:editable="false"
+            android:ems="10" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/edttxtRopani"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:editable="false"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/edttxtPaisa"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="44dp"
+            android:editable="false"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/edttxtDaam"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="44dp"
+            android:editable="false"
+            android:ems="10" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDaam"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignParentRight="true"
+        android:text="Daam"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPaisa"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtDaam"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:text="Paisa"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAnna"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPaisa"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:text="Anna"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRopani"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtAnna"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:text="Ropani"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtinRopani"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtRopani"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="34dp"
+        android:text="In Ropani"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>
